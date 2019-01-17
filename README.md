@@ -7,10 +7,10 @@ A simple React app built using Facebook's [react-create-app](https://github.com/
 To test this app, I would seperate into front and backend tests. 
 
 ### Frontend Testing
-Jasmine tests similar to what is done in `App.test.js` could be written for all components as unit tests. Integration tests could be written using browser automation like Selenium or Puppeteer.
+Jasmine tests similar to what is done in `App.test.js` could be written for all components as frontend unit tests. Integration UI tests could be written using browser automation like Selenium or Puppeteer for simulated user flow.
 
 ### Backend Testing
-Backend unit tests could cover the endpoints using a language-specific testing suite (for example `unittest` in Python). In addition, REST testing using `frisby.js` for the API endpoints.
+Backend unit tests could cover the endpoints using a language-specific testing suite (for example `unittest` in Python). In addition, Jasmine with `frisby.js` could be used to integration test the output of the endpoints.
 
 ## API
 
